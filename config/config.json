@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "flyout-container-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/flyoutContainer/FlyoutContainerWebPart.js",
+          "manifest": "./src/webparts/flyoutContainer/FlyoutContainerWebPart.manifest.json"
+        }
+      ]
+    },
+    "container-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/container2/Container2WebPart.js",
+          "manifest": "./src/webparts/container2/Container2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FlyoutContainerWebPartStrings": "lib/webparts/flyoutContainer/loc/{locale}.js",
+    "Container2WebPartStrings": "lib/webparts/container2/loc/{locale}.js"
+  }
+}

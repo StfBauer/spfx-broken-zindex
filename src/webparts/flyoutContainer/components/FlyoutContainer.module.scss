@@ -1,0 +1,48 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+$c-green: #a7bb38;
+$c-teal: #20a5ac;
+$c-orange: #ee9105;
+
+$c-yellow: #eeb405;
+$c-red: #dd314d;
+$c-blue: #318eb1;
+
+$c-yellow: #edb406;
+$c-red: #cd2941;
+$c-blue: #006581;
+
+.container{
+  position: relative;
+
+  width: 20em;
+  padding: 1em;
+
+  background-color: $c-red;
+  color: white;
+
+  font-size: 1.2em;
+  font-family: sans-serif;
+
+  &:hover{
+    .flyout{
+      display: block;
+    }
+  }
+}
+
+.flyout{
+  background-color: $c-yellow;
+  color: black;
+  position: absolute;
+  top: 60%;
+
+  padding: 1em;
+  z-index: 10;
+
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  display: none;
+
+  height: 800px;
+}

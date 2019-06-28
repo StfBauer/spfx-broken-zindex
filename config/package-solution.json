@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "broken-z-index-client-side-solution",
+    "id": "aa294f6f-afdc-453a-a9b4-708485b127c8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/broken-z-index.sppkg"
+  }
+}
